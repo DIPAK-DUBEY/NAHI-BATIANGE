@@ -1,0 +1,317 @@
+/*FOR-BODY-PORTION*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+
+  /*FOR-HEADER*/
+}
+header {
+  background-color: rgb(131 163 157 / 23%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10%;
+}
+/*NAVIGATION-SECTION -STARTS*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 19px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #3fe99a;
+}
+nav ul li a:hover {
+  color: #2c835a;
+
+  /*NAVIGATION-SECTION-FINISH*/
+}
+
+/*FOR-MAIN-HEADING*/
+
+h1 {
+  color: #3fe99a;
+  font-family: "Sacramento", cursive;
+  font-size: 110px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 106px;
+  margin-left: 545px;
+}
+
+/*FOR-FIRST-PARA*/
+
+#parafirst {
+  color: #3fe99a;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  margin-left: 549px;
+  margin-top: 5px;
+}
+
+/*FIRST-LOGO*/
+
+.logo {
+  width: 55px;
+  height: 55px;
+}
+
+/*MOUNTAIN-SECTION*/
+
+#pahad {
+  margin-left: 349px;
+  margin-top: 305px;
+}
+
+/*FOR-CLOUD-1*/
+
+.firstcloud {
+  height: 100px;
+  position: absolute;
+  animation: mymove 60s infinite;
+  animation-fill-mode: backwards;
+  margin-right: 0px;
+  margin-top: 82px;
+  margin-left: 0px;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 405px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+#pehlacloud {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/*FOR-CLOUD-2*/
+
+.secondcloud {
+  height: 100px;
+  position: absolute;
+  margin-left: 1357px;
+  margin-top: 276px;
+  animation: second 60s infinite;
+  animation-fill-mode: backwards;
+  margin-right: 275px;
+}
+
+#dusracloud {
+  position: absolute;
+  margin-right: 0px;
+  top: 0px;
+  margin-left: 120px;
+}
+
+@keyframes second {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 470px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+/*FOR-FIRST-DIV*/
+
+.firstcontainer {
+  background-color: rgb(131 163 157 / 23%);
+  height: 605px;
+}
+
+
+.intro {
+  position: absolute;
+}
+
+/*here the main function starts (after the image section)*/
+
+.boom {
+  text-align: center;
+}
+#secondimage {
+  height: 100px;
+  padding-top: 100px;
+}
+H2 {
+  color: #3fe99a;
+}
+#paragraph2 {
+  width: 25%;
+  margin-left: 572px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(119 92 92);
+}
+#firsthorizontal {
+  border-top: 10px dotted #eeeeee;
+  margin-top: 52px;
+  width: 100px;
+  height: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+#secondh2 {
+  padding-top: 0px;
+  margin-top: 85px;
+  display: inline-block;
+  margin-right: 530px;
+  font-size: 40px;
+}
+.firsthorizontal {
+  color: red;
+}
+#thirdimage {
+  float: left;
+  height: 100px;
+  margin-left: 454px;
+  margin-top: 212px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+#paragraph3 {
+  width: 25%;
+  margin-left: 754px;
+  margin-top: 25px;
+  color: rgb(119 92 92);
+}
+#firsth3 {
+  padding-top: 34px;
+  width: 500px;
+  color: #3fe99a;
+  margin-right: 81px;
+  padding-right: 18px;
+  padding-left: 607px;
+}
+
+/*DEVELOP WHAT YOU NEED SECTION BEGINS*/
+
+.developwhatyouneed {
+  margin-top: 70px;
+}
+
+#thirdlogo {
+  height: 100px;
+  float: right;
+  margin-right: 310px;
+}
+#paragraph4 {
+  width: 25%;
+  margin-left: 431px;
+  color: rgb(119 92 92);
+}
+#secondh3 {
+  margin-right: 36px;
+  padding-right: 399px;
+  color: #3fe99a;
+}
+#secondhorizontal {
+  border-top: 10px dotted #eeeeee;
+  margin-top: 115px;
+  width: 100px;
+  height: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+
+/*I CAN HELP SECTION (THIS INCLUDES BUTTON WITH MESSAGE LOGO AND SOME SORT OF DESCRIPTION)*/
+
+#thirdh2 {
+  font-size: 40px;
+  margin-top: 126px;
+  margin-left: 24px;
+}
+#thirdh3 {
+  padding-top: 15px;
+  color: #3fe99a;
+  margin-left: 34px;
+}
+#paragraph5 {
+  width: 24%;
+  margin-left: 592px;
+  margin-top: 37px;
+  color: rgb(119 92 92);
+}
+#messageimage {
+  height: 40px;
+  position: absolute;
+}
+
+/*BUTTON-SECTION*/
+
+
+button {
+  background:#3fe99a;
+  font-size: 15px;
+  font-family: Arial;
+  border-radius: 0px;
+  color: white;
+  border: none;
+  padding: 5px 9px 9px 9px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 83px;
+  margin-left: 0px;
+  margin-top: 41px;
+  padding-left: 13px;
+}
+
+button:hover {
+  background: #ffffff;
+  color: black;
+  outline: 1px solid black
+
+}
+
+/*footer-portion*/
+
+footer {
+  background-color: #e5f8ef;
+  display: flex;
+  align-items: center;
+  padding: 1% 10%;
+  margin-top: 128px;
+  padding-left: 604px;
+}
+#paragraph6 {
+  color: rgb(119 92 92);
+  margin-left: 56px;
+  margin-top: 35px;
+  font-size: 11px;
+}
+
+.footerlink {
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #3fe99a;
+}
+.footerlink:hover {
+  text-decoration: underline;
+  color: #2c835a;
+}
